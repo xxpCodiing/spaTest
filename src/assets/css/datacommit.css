@@ -1,0 +1,106 @@
+.commitbox{
+    position:fixed;
+    left:0;
+    right:0;
+    top:3.6em;
+    bottom:0;
+    padding: .6em;
+    overflow-y: auto;
+}
+.commitbox ul{
+    padding: 0 .6em;
+    color:#333;
+    border-radius: .2em;
+    margin-bottom: .6em;
+    -webkit-box-shadow:0 0 .625em rgba(0, 0, 0, .14);  
+    -moz-box-shadow:0 0 .625em rgba(0, 0, 0, .14);  
+   box-shadow:0 0 .625em rgba(0, 0, 0, .14);  
+   z-index: 9999;
+}
+.title{
+    position:relative;
+    height: 2.58em;
+    line-height: 2.58em;
+    padding-left: .2em;
+    
+}
+.titleLine{
+    position: absolute;
+    left: -.6em;
+    top:.6em;
+    height: 1.2em;
+    bottom: .6em;
+    width: .3em;
+    background: #12b7f5;
+    
+}
+.pigname{
+    padding:.4em 0;
+}
+.sowcommit .itme{
+    width: 50%;
+}
+.warespig .itme{
+    width: 33.3%;
+}
+.pigcommit{
+    padding-top:0;
+    padding-bottom: .625em;
+}
+.morecommit{
+    line-height: 2.6em;
+    font-size: .875em;
+}
+.morecommit i{
+    position: relative;
+    top:.14em;
+}
+.itme  .date{
+    margin-bottom: .2em;
+}
+.name{
+    color: #888;
+    font-size: 0.875em;
+}
+.one_size{
+    font-size: 1.04em;
+}
+.commitbox .morelist{
+    margin-top: -.7em;
+    box-shadow: none;
+    padding-top: .7em;
+      border-radius: 0  0  .2em .2em;
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: -1;
+       -webkit-box-shadow:0 0 .625em rgba(0, 0, 0, .14);  
+    -moz-box-shadow:0 0 .625em rgba(0, 0, 0, .14);  
+   box-shadow:0 0 .625em rgba(0, 0, 0, .14);  
+ 
+}
+.commitbox  .commitlist{
+    z-index: 999999;
+}
+.commitlist li{
+     border-bottom: none;
+}
+.morelist li:last-child{
+    border-bottom: none;
+}
+.commitbox .moreopen{
+    border-radius: .2em .2em 0 0;
+}
+.morerotate{
+    transform:rotate(180deg);
+-ms-transform:rotate(180deg);     /* IE 9 */
+-moz-transform:rotate(180deg);    /* Firefox */
+-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+-o-transform:rotate(180deg);  /* Opera */
+}
+.typeios .Tnav{
+    top: 1em;
+}
+.typeios .commitbox{
+  top: 4.6em;
+}

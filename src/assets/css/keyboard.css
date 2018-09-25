@@ -1,0 +1,53 @@
+.body_box{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    overflow-y: auto;
+    padding-top: 3em;
+}
+.keyboard{
+    position: fixed;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.keydata{
+    width: 17.5em;
+    height: 100%;
+}
+.keybtn{
+    width: 5em;
+    height: 100%;
+}
+.eliminate,.keybtn{
+    font-size: 1.25em;
+}
+.keyitme{
+   font-size: 1.7em;
+}
+
+.keyitme:active{
+    background-color: #c0c0c0;
+}
+
+.keyitme,.eliminate{
+    float: left;
+    width: 33%;
+    height:25%;
+    background: #fff;
+}
+.btnitme{
+    height: 50%;
+}
+
+.btnitme:active{
+    background-color: #c0c0c0;
+}
+
+.eliminate:active{
+    background-color: #c0c0c0;
+}
+
