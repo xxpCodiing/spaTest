@@ -1,0 +1,751 @@
+/*添猪引导*/
+.skip{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    border-radius: 1.4em;
+   
+}
+.box_main h1{
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+}
+.entrance{
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 30px;
+}
+.entrance span{
+    background: #f4c600;
+    line-height: 30px;
+    padding: 12px 70px;
+    border-radius: 4px;
+}
+.box_main{
+    background: red;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background:url(../img/bg.png);
+    background-size: 100% 100%;
+}
+/*添猪引导 end*/
+/*母猪录入*/
+.header_box{
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.header{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.backtrack{
+    display: inline-block;
+    width: 12px;
+    height: 18px;
+    background:url(../img/left.png) center center no-repeat;
+    background-size: 12px 18px;
+    margin-top: 6px;
+}
+.guidanceOne{
+    background:#fff url(../img/pageone.png) center center no-repeat;
+}
+.guidanceTwo{
+    background:#fff url(../img/pagetwo.png) center center no-repeat;
+}
+.guidanceThree{
+    background:#fff url(../img/pagethree.png) center center no-repeat;
+}
+.guidance{
+    height: 64px;
+    background-size: 100% auto;
+    margin:0 20px;
+}
+.entering_main {
+    margin:0 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.entering_main .list{
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    background:#fff url(../img/right.png) right 10px center no-repeat;
+    background-size: 12px 18px;
+    padding: 0 .6em;
+    padding-right: 1.4em;
+}
+.entering_list{
+    margin-bottom: 30px;
+}
+.entering_list h1{
+    margin-bottom: 10px;
+}
+.btn_box,.btn_box_next{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    line-height: 50px;
+    background:#f0f0f0; 
+}
+.user_btn{
+    position: fixed;
+    background:#12b7f5; 
+    border-radius: 4px;
+    bottom: 10px;
+    left: 10px;
+    height: 40px;
+    line-height: 40px;
+    right:10px;
+}
+/*母猪录入 end*/
+
+/*妊娠母猪录入*/
+.sowList .list{
+    height: 75px;
+    line-height: 50px;
+    padding: 14px 4px;
+}
+.typebg{
+    font-size: 12px;
+    background:#fff url(../img/type_bg.png) center center no-repeat; 
+    background-size: 22px 22px;
+}
+.sowList .main,.sowList .typebg,.sowList .litm,.main .itme,
+.sowList .litm_box,.pigletList .itme_box,.pigletList .title,
+.pigletList .list_itme,.pigletList .list,.pigletList .litm_box,
+.pigletList .itme,.columList .listh_main,.columList input,.columList .list,
+.columList .itme,.itme
+{
+    margin: 0;
+    padding: 0;
+}
+.sowList .litm{
+    padding: 0 4px;
+    margin-bottom:10px;
+}
+.sowList .sowlitm{
+    margin:0;
+    padding: 0;
+    padding-left: .4em;
+}
+.sowList .main{
+    margin-bottom: 10px;
+}
+.sowList .litm_box{
+    height: 50px;
+    line-height: 50px;
+    padding:0 6px;
+}
+.litm_box input{
+    border:none;
+    outline: none;
+    background:none;
+}
+/*妊娠母猪录入end*/
+ /*哺乳猪录入*/
+.pigletList{
+    margin-top: 10px;
+}
+.pigletList .itme_box,.pigletList  .litm_box{
+    padding: 0 6px;
+}
+.pigletList .list {
+ padding: 10px 0;
+ margin-bottom: 10px;
+}
+.pigletList .title {
+  height: 50px;
+  line-height: 50px;
+}
+.title span{
+    padding:0 6px;
+}
+.letList{
+    padding:0;
+    margin:0;
+}
+.pigletList .list_itme{
+   height: 40px;
+  line-height:40px;
+  padding-top: 10px; 
+}
+ /*哺乳猪录入 end*/
+
+ /*保育育肥猪*/
+.nurseryList{
+    margin: 0px;
+    line-height: 50px;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+.columnlist{
+    margin: 0 16px;
+    padding: 10px 0;
+}
+.listh input,.columList .list input,.columList .databox input,.info input{
+    margin: 0;
+    outline: none;
+    border: none;
+    padding: 2px;
+    color: #6e6e6e;
+    font-size: 18px;
+    line-height: 1.5;
+    height: auto;
+    margin-top: 10px;
+    background: none;
+}
+.listh_main span,.itme_main span{
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    color: #6e6e6e;
+}
+.columnname{
+    margin-left: 0;
+    padding-left: 0;
+}
+.nurseryList .listh_main{
+    padding: 0 10px;
+}
+.column{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.columList{
+    margin: 0 -10px;
+    padding: 10px;
+}
+.columList .list{
+    padding: 10px;
+    line-height: 40px;
+}
+.columList .itme_main{
+ padding: 0 8px;
+}
+.columList .name{
+    padding-left: 6px;
+}
+.columList .databox{
+    padding: 10px 4px;
+    line-height: 40px;
+}
+.databox .itme_box{
+    padding: 0 6px;
+}
+/*保育育肥猪 end*/
+
+/*母猪信息输入pop*/
+.popbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 999;
+}
+.popmain{
+    position: absolute;
+    width:280px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    max-width: 500px;
+     top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    border-radius: 4px;
+}
+.sowpop .popmeasure{
+    height: 300px;
+    padding-top: 10px;
+}
+.sowpop .sowTotalpopm{
+    height: 280px;
+}
+.sowpopbox{
+     height: 400px;
+}
+.popmeasure .title{
+    margin: 0;
+    padding: 0;
+}
+.popmeasure  .active{
+  color: #12b7f5;
+}
+.Speciespop .popmeasure{
+    min-height: 300px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.Earconpop .popmeasure{
+    min-height: 300px;
+    height: auto;
+    padding-bottom: 50px;
+}
+.pigletmain .popmeasure{
+    min-height: 360px;
+}
+.poitme{
+    position: relative;
+}
+.poitme hr{
+     margin:0 1em;
+    height:0.2em;
+    border-radius:1.2em;
+    margin-top:-0.18em;
+    background: #12b7f5;
+    border:none;
+}
+.popbox .title{
+  height: 40px;
+  line-height: 40px;
+}
+.order{
+    position: absolute;
+    top: 6px;
+    left: -8px;
+    width:80px;
+    height:46px;
+    background: red;
+    line-height: 40px;
+    background: url(../img/order.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.closeicon{
+    position: absolute;
+    top: -10px;
+    right:-8px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: url(../img/closeicon.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.datapop{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../img/typedate.png) right center no-repeat;
+    background-size: 18px auto;
+}
+.popmain .btn_pop{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0 0 4px 4px;
+}
+.btnstyle{
+    background: #12b7f5;
+}
+.btn_pop .btnstyle{
+    border-radius: 0 0 4px 0;
+}
+.popmain p{
+    font-size: 14px;
+    margin-top: 4px;
+    color: #b5b5b5;
+}
+.info{
+    position: relative;
+    margin: 0 10px;
+    height: 50px;
+    padding:0 10px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+.sowpop_main .info{
+     margin-bottom: 20px;
+}
+.unclickable{
+    color: #b5b5b5;
+}
+.typedate{
+    width: 36px;
+    height: 40px;
+    background:url(../img/typedate.png) right center no-repeat; 
+    background-size: 20px 20px;
+}
+.activeicon{
+    position: absolute;
+    right: -18px;
+    top: 14px;
+    width: 14px;
+    height: 12px;
+    background:url(../img/activeicon.png) right center no-repeat; 
+    background-size: 14px 12px;
+}
+.unclickable .activeicon{
+    opacity: 0;
+}
+.Speciespop ul{
+    padding-top:10px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 0;
+}
+.Speciespop li{
+    height: 50px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.Earconpop .typebox{
+  padding: 0;
+  margin: 0;
+}
+.typebox span{
+    display: inline-block;
+    padding: 6px 14px;
+    margin-right: 6px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.amend span{
+  background: #eeeeee;
+  border:none;
+}
+.typebox strong{
+    padding-left: 4px;
+    outline: none;
+    font-weight: normal;
+}
+.Earconpop  .typebox{
+    max-height: 280px;
+    overflow-y:auto;
+    margin-top: 16px;
+    padding-left: 10px;
+}
+.type_y.active{
+  background:url(../img/type_y.png) right 10px top no-repeat;
+}
+.type_d.active{
+  background:url(../img/type_d.png) right 10px top no-repeat;
+}
+.type_b.active{
+  background:url(../img/type_b.png) right 10px top no-repeat;
+}
+.type_r.active{
+  background:url(../img/type_r.png) right 10px top no-repeat;
+}
+.typebox .active{
+  color: #12b7f5;
+  background-size: 36px 40px;
+}
+.piglet  .list{
+    height: 146px;
+    margin-bottom: 10px;
+}
+.pigletinfo,.pigletinfo .itme_box {
+    padding: 0;
+    margin: 0;
+}
+.listmain,.pigletinfo {
+    line-height: 50px;
+}
+.uhide,.typebox .uhide{
+    display: none;
+}
+.sowpop_main{
+    padding: 0;
+    margin: 0;
+    height: 260px;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+.Hintsucceed{
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    background:url(../img/succeed.png) top center  no-repeat;
+    background-size:98% 180px;
+}
+.Hintsucceed .hint{
+    margin-top: 200px;
+    padding-left: 10%;
+}
+.HintFailure .hint{
+     margin-top: 140px;
+    padding-left: 10%; 
+}
+.hint_btn{
+    margin:0 20px;
+    margin-top:60px;
+    height: 40px;
+    line-height: 40px;
+    border-radius:4px;
+}
+.hint_title{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.HintFailure{
+    position: absolute;
+    top:10%;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    background:url(../img/icon_pig.png) top center  no-repeat;
+    background-size:auto 120px;
+}
+.Failure_btn{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 10px;
+}
+.continual ,.anewhint{
+    padding: 0;
+    margin: 0;
+}
+.anewhint span{
+    background: #12b7f5;
+}
+.continual span{
+    background:#8de0ff;
+}
+.Failure_btn span{
+    display:block;
+    margin-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+}
+.hint_info{
+    background: #eeeeee;
+    margin: 0 20px;
+    padding: 10px;
+    line-height: 2;
+    margin-top: 10px;
+    height:34%;
+    overflow-y:auto;
+}
+.hint_info li,.hint_info .itme{
+    margin: 0;
+    padding: 0;
+}
+.hintitme{
+    padding-right: 0;
+}
+.earTagpop .itme_title,.earTagpop .itme,.earTagmain{
+    padding:0;
+    margin:0;
+}
+.earTagpop .itme_box{
+    padding: 0;
+    border-radius: 4px;
+    height: 40px;
+}
+.typebox .active .itme_box{
+   border-color:#12b7f5; 
+
+}
+.earTagpop .itme_box input{
+    border:none;
+    background: none;
+    padding: 0;
+    outline: none;
+    padding-left:.4em;
+   -webkit-text-fill-color:black;
+   -webkit-opacity:1; opacity: 1;
+}
+.earTagpop  .modifier input{
+    height: auto;
+    line-height:0;
+    padding: 0;
+    font-size:16px;
+    border-radius: .4em 0 0 .4em;
+    padding: 8px;
+    background: #f0f0f0;
+    color:#999;
+}
+.earTagpop .modifier{
+    padding-right: 2px;
+   
+}
+.earTagpop .itme{
+    margin-bottom: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+.earTagmain{
+    padding-right: 10px;
+}
+.allear{
+       position:relative;
+       height: 2.4em;
+      line-height: 2.4em;
+      padding-right: 10px;
+}
+.allear .elect{
+    position:absolute;
+    display: inline-block;
+    width: 18px;
+    height:18px;
+    top: 10px;
+}
+.allear .active{
+     background:url(../img/draw.png) center center  no-repeat;
+    background-size:100% auto;
+}
+.alleartext{
+    margin-left: 26px;
+}
+/*母猪信息输入pop end*/
+/*修改*/
+.columList li{
+    padding: 10px;
+    padding-bottom: 6px;
+}
+.fattenPig .title{
+   background:url(../img/typeicon_t.png) left center  no-repeat;  
+}
+.childCare .title{
+   background:url(../img/typeicon_o.png) left center  no-repeat;  
+}
+.columList .title{
+    height: 24px;
+    line-height: 24px;
+    padding-left: 30px;
+   
+    background-size: 24px 24px;
+    margin-bottom: 10px;
+}
+.colum_icon{
+    height: 86px;
+    background:url(../img/pigling.png) left center  no-repeat;
+    background-size: 100% 80%;
+}
+.itme_li{
+    padding-left: 10px;
+}
+.itme_li input{
+    outline:none;
+    border:none;
+    border-bottom: 1px solid #dedfe0;
+}
+.itme_li .itme{
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.chirdCare,.fattenPig{
+    margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+ .guidance{
+   background-size: 100% 60px;
+ }
+ .Hintsucceed{
+   background-size: 100% 400px;
+ }
+ .Hintsucceed .hint{
+   margin-top: 400px;
+}
+}
+.pigletmain .info{
+    margin-bottom:10px;
+    margin-top: 0;
+}
+.pigletmain .sowpop_main{
+    padding-bottom: 0;
+    margin-top: 10px;
+}
+.activelist{
+      -webkit-box-shadow:0 0 10px rgba(18, 183, 245, .4);  
+  -moz-box-shadow:0 0 10px rgba(18, 183, 245, .4);  
+  box-shadow:0 0 10px rgba(18, 183, 245, .4);  
+}
+
+/*error*/
+.HintFailure .hint{
+    padding: 0;
+    text-align: center;
+}
+.passed{
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    color: #00d3a3;
+    font-size: 50px;
+    font-weight: 700;
+}
+.passed::before{
+    content: "已通过";
+    font-size: 14px;
+    color: #333333;  
+    position: absolute;
+    top: -5px;
+}
+.passed::after{
+    content: "条";
+    font-size: 14px;
+    color: #b4b4b4; 
+    margin-left: 5px; 
+}
+.no_passed{
+    float: left;
+    width: 50%;
+    position: relative;
+    color: #f84b0d;
+    font-size: 50px;
+    font-weight: 700;
+}
+.no_passed::before{
+    content: "错误";
+    font-size: 14px;
+    color: #333333;  
+    position: absolute;
+    top: -5px;
+}
+.no_passed::after{
+    content: "条";
+    font-size: 14px;
+    color: #b4b4b4; 
+    margin-left: 5px; 
+}
+.Poptitle{
+    height: 30px;
+    line-height: 30px;
+}
+.typeios .header_box{
+    padding-top:24px;
+}
+.typeios .box_main{
+    top: 16px;
+}
+.typeios input{
+   -webkit-text-fill-color:black;
+   -webkit-opacity:1; opacity: 1;
+}

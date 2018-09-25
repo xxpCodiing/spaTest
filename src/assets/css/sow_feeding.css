@@ -1,0 +1,197 @@
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 3em;    
+}
+.list_pig{
+  overflow-y: auto;  
+  position: fixed;
+  top: 3em;
+  left:0;
+  right: 0;
+  bottom: 0;
+}
+.typeios .header{
+    top: 1em;
+}
+.typeios .list_pig{
+  top: 4em;  
+}
+.list_pig li{
+    margin-top: 0.5em;
+    background: #fff;
+    padding: 0 0.5em;
+}
+.list_pig li:first-child{
+    margin-top: 0.25em;
+}
+.list_title{
+    border-bottom: solid 1px #dedfe0;
+    position: relative;
+    padding: 0 0.625em;
+    padding-top: 0.66em;
+    padding-bottom: 0.4em;
+}
+.list_title h2{
+    font-size: 1em;
+    color: #12B7F5;
+    font-weight: normal;
+}
+.list_title span{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-indent: 0.3em;
+    font-size: 0.94em;
+    position: absolute;
+    right: 0;
+    bottom: 0.3em;
+    padding: 0.2em 0.3em;
+    background: #00d3a3;
+    border-radius: 0.2em;
+}
+.list_content{
+    padding: 1em 0;
+}
+.pig_age{
+    width: 20%;
+    color: #999999;
+    border-right: solid 1px #cccccc;
+}
+.pig_age .number_box{
+    font-size: 1.05em;  
+    color: #333333; 
+    width: 100%;
+    display: block;
+    margin-top: 0.3em;
+}
+.pig_age .number_box input{
+    width: 2em;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1em;  
+    overflow-x:visible;
+    overflow-y:visible; 
+}
+.pig_age i{
+    font-size: 0.66em;
+    color: #333333;
+}
+.pig_age .unit{
+    display: block;
+    padding-top: 0.5em;
+}
+
+.item_data_1{
+    width: 45%;
+}
+.item_data_2{
+    width: 35%;
+    text-align: center;
+}
+.item_data{
+    color: #8d8c8c;
+}
+.item_data b{
+    font-size: 1em;
+}
+.item_data span{
+    
+    font-size: 1em;
+}
+.item_data i{
+    font-size: 1em;
+}
+.item_data_1 b{
+    width: 40%;
+    display: block;
+    text-align: right;
+}
+.item_data_1 span{
+    width: 34%;
+    display: block;
+    text-align: center;
+    
+}
+.item_data_1 i{
+    text-align: left;
+}
+.pig_weight{
+    margin-top: -0.3em;
+}
+.pig_taici{
+    margin-top: -0.3em;
+}
+
+.item_data_2 b{
+    width: 40%;
+    display: block;
+    text-align: right;
+}
+.item_data_2 span{
+    display: block;
+    text-align: center; 
+}
+
+.pig_weight span input,
+.pig_num span input,
+.pig_taici span input,
+.pig_live span input{
+    width: 1.5em;
+    color: #333333;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    overflow-x:visible;
+    overflow-y:visible; 
+}
+
+.pig_weight i,
+.pig_num i,
+.pig_taici i,
+.pig_live i{
+    font-size: 1em;
+}
+.number_box input{
+    padding-bottom: 0.1em;
+}
+.item_data span input{
+    padding-bottom: 0.1em;
+}
+
+.pig_weight span input{
+    width: 2.5em;
+}
+/*编辑状态*/
+.editing .number_box input{
+    color: #b5b5b5;
+    padding-bottom: 0.1em;
+    border-bottom: solid 2px #e1e1e1;
+}
+.editing .item_data span input{
+    color: #999999;
+    padding-bottom: 0.1em;
+    border-bottom: solid 2px #e1e1e1;
+}
+.editing .list_title span{
+    background: #12b7f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
