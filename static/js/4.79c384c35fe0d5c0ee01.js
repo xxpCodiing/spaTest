@@ -1,0 +1,2 @@
+webpackJsonp([4],{200:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var o=n(9);n.n(o);e.default={nama:"about",created:function(){n.i(o.Toast)({message:"提示",position:"bottom",duration:5e3})}}},244:function(t,e){t.exports={render:function(){var t=this,e=t.$createElement;return(t._self._c||e)("div",{attrs:{id:"about"}},[t._v("\n    this is about page\n")])},staticRenderFns:[]}},48:function(t,e,n){var o=n(19)(n(200),n(244),null,null,null);t.exports=o.exports}});
+//# sourceMappingURL=4.79c384c35fe0d5c0ee01.js.map
